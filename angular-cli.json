@@ -18,9 +18,12 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
+        "../semantic/dist/semantic.min.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../semantic/dist/semantic.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

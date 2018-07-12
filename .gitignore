@@ -15,6 +15,9 @@
 *.launch
 .settings/
 
+/semantic/src
+/semantic/tasks
+
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
